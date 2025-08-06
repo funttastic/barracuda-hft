@@ -1062,7 +1062,6 @@ export class Fin {
 		);
 
 		const parseOrder = (entry: any): OrderBookOrder => ({
-			orderId: entry.id,
 			price: new Decimal(entry.price),
 			amount: new Decimal(entry.total),
 			raw: entry

@@ -495,11 +495,6 @@ export interface OrderBookOrder {
 	/**
 	 * Price of the order
 	 */
-	orderId?: OrderId;
-
-	/**
-	 * Price of the order
-	 */
 	price: OrderBookOrderPrice;
 
 	/**
