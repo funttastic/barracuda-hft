@@ -1,6 +1,6 @@
 rujira:
   endpoints:
-    rpc: "https://thornode-mainnet-rpc.bryanlabs.net" # The RPC endpoint to use
+    rpc: "https://rpc-thorchain.rorcual.xyz" # The RPC endpoint to use
     rest: "https://thornode.ninerealms.com" # The REST endpoint to use
     graphql: "https://api.rujira.network/api/graphql" # The GraphQL endpoint to use (usually requires authentication and is important for indicators)
     oracle: "https://stagenet-thornode.ninerealms.com/thorchain/oracle/prices" # Used to retrieve the prices from the oracle. Currently not available on mainnet, change to it when it becomes available.
